@@ -17,8 +17,8 @@ export default {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid grey;
-  background-color: #ebebeb;
+  box-shadow: 1px 8px 20px black;
+  background-image: linear-gradient(to bottom right, #1f2263, #06083b);
   padding: 0;
   margin: 0;
   padding-left: 30px;
@@ -28,7 +28,7 @@ header {
   display: flex;
   align-items: center;
 }
-a {
+.menu a {
   text-decoration: none;
   color: grey;
   border: 1px solid grey;
@@ -38,11 +38,11 @@ a {
   transition: 0.3s;
   background: white;
 }
-a:hover {
+.menu a:hover {
   color: #e87f22;
   border: 1px solid #e87f22;
 }
 .title {
-  color: #3774be;
+  color: white;
 }
 </style>

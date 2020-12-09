@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>About DadJokes</h1>
-    <p>App that displays dad jokes</p>
+  <div class="about">
+    Site was made and maintained by
+    <a href="https://github.com/MichaelBaynon" target="_">Michael Baynon</a>
   </div>
 </template>
 
@@ -15,4 +15,18 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.about {
+  font-size: 25px;
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 22%;
+  text-shadow: -1px -1px black;
+}
+a {
+  color: #6c41bf;
+}
+.about a:hover {
+  color: purple;
+}
+</style>
