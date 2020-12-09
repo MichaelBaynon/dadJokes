@@ -1,5 +1,6 @@
 <template>
   <div class="about">
+    <p>Site was made using Vue/Nuxt</p>
     Site was made and maintained by
     <a href="https://github.com/MichaelBaynon" target="_">Michael Baynon</a>
   </div>
